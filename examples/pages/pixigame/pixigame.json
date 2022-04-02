@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "pixi-canvas": "/lib/pixi-canvas/pixi-canvas"
+    "pixi-canvas": "/components/pixi-canvas/pixi-canvas"
   }
 }
