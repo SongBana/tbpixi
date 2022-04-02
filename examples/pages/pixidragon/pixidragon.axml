@@ -1,4 +1,10 @@
 <view class="page-game">
+  <view class="row">
+    <button size="default" type="primary" onTap="onClickAction" data-type="1">跳</button>
+    <button size="default" type="primary" onTap="onClickAction" data-type="2">跑</button>
+    <button size="default" type="primary" onTap="onClickAction" data-type="3">击打</button>
+    <button size="default" type="primary" onTap="onClickAction" data-type="4">死亡</button>
+  </view>
   <pixi-canvas id="pixi-canvas" options={{appOptions}} destroyAppOnDidUnmount="true" onError="onPixiCanvasError" onDidUnmount="onPixiCanvasDidUnmount" 
     onAppInit="onAppInit"></pixi-canvas>
 </view>

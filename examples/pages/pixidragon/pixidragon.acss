@@ -1,0 +1,10 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 16rpx 0rpx;
+}
+.row button{
+  width: 160rpx;
+  margin-right: 15rpx;
+}

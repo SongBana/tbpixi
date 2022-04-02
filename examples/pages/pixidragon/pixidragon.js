@@ -230,6 +230,7 @@ Page({
   onAppInit(e) {
     const { canvas, context, options, application } = e
     console.log('onAppInit', e);
+    const that = this
     this.canvas = canvas;
     this.context = context;
     this.pixiApplication = application;
@@ -271,7 +272,8 @@ Page({
           if (animation.state.hasAnimation('jump')) {
             animation.state.setAnimation(0, 'jump', true);
           }
-          
+          that.animation = animation
+
           // 2.跑
           // if (animation.state.hasAnimation('run')) {
           //   animation.state.setAnimation(0, 'run', true);
@@ -293,5 +295,39 @@ Page({
           console.log("异常", err)
         }
       })
+  },
+  onClickAction(e) {
+    const { currentTarget: {
+      dataset: {
+        type
+      }
+    } } = e
+    const animation = this.animation
+    switch (type) {
+      case "1":
+        if (animation.state.hasAnimation('jump')) {
+          animation.state.setAnimation(0, 'jump', true);
+        }
+        break;
+      case "2":
+        if (animation.state.hasAnimation('run')) {
+          animation.state.setAnimation(0, 'run', true);
+        }
+        break;
+      case "3":
+        if (animation.state.hasAnimation('hit')) {
+          animation.state.setAnimation(0, 'hit', true);
+        }
+        break;
+      case "4":
+        if (animation.state.hasAnimation('death')) {
+          animation.state.setAnimation(0, 'death', true);
+        }
+        break;
+
+      default:
+        break;
+    }
+
   }
 })
