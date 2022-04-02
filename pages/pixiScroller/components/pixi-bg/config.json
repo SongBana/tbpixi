@@ -1,0 +1,54 @@
+{
+  "group": [
+    {
+      "name": "group1",
+      "bg": 12,
+      "animate": 5
+    },
+    {
+      "name": "group2",
+      "bg": 11,
+      "animate": 3
+    },
+    {
+      "name": "group3",
+      "bg": 12,
+      "animate": 3
+    }
+  ],
+  "bg": {
+    "name": "scene",
+    "url": "https://cjwx.oss-cn-zhangjiakou.aliyuncs.com/2021newyear/coach618/scenebg/CoachCity_1024_",
+    "len": 32,
+    "x": 0,
+    "y": 0,
+    "width": 750,
+    "height": 350
+  },
+  "deprecate": [],
+  "taskPoint": [
+    {
+      "name": "xiaoFeiTrade",
+      "pointName": "huatong",
+      "width": 130,
+      "height": 130,
+      "x": 531,
+      "y": 820
+    }
+  ],
+  "product": [],
+  "animate": [
+    {
+      "urlPrefix": "https://cjwx.oss-cn-zhangjiakou.aliyuncs.com/2021newyear/coach618/sceneAnimate/00---REEL-WHEELS_8FPS",
+      "len": 16,
+      "x": 214,
+      "y": 1113,
+      "width": 428,
+      "height": 375,
+      "containerIndex": 1,
+      "name": "animate00",
+      "type": "newGoods",
+      "tap": true
+    }
+  ]
+}

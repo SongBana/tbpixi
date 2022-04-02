@@ -1,0 +1,21 @@
+.pixi_box{
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+.ui_wrapper{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: green;
+  opacity: 0.3
+  
+  
+}
+.page-game {
+  
+ width: 100vw;
+ height: 100vh;
+}

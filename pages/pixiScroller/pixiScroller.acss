@@ -1,0 +1,9 @@
+.coach-page {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  background-color: red;
+}
+.coach-page .pixibg {
+  z-index: 2;
+}

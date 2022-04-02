@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pixiScroller/pixiScroller",
+    "pages/pixigame/pixigame",
+    "pages/pixidragon/pixidragon"
+  ],
+  "window": {
+    "allowsBounceVertical": "NO",
+    "defaultTitle": "My App",
+    "enableSkia": "true",
+    "v8WorkerPlugins": "gcanvas_runtime",
+    "v8Worker": 1
+  }
+}

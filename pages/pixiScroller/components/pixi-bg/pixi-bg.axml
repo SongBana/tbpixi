@@ -1,0 +1,6 @@
+<view class="page-game">
+  <pixi-canvas id="pixi-canvas" options={{appOptions}} destroyAppOnDidUnmount="true" onError="onPixiCanvasError" onDidUnmount="onPixiCanvasDidUnmount" onAppInit="onAppInit"></pixi-canvas>
+</view>
+<!-- <view class="ui_wrapper" onTouchStart="onTouchHandle" onTouchEnd="onTouchHandle" onTouchMove="onTouchHandle" onTouchCancel="onTouchHandle" >
+
+</view> -->

@@ -1,0 +1,8 @@
+<view
+  class="coach-page"
+  onTap="onWindowTap"
+>
+  <view class="pixibg">
+    <pixi-bg></pixi-bg>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "pixi-canvas": "../../pixi/pixi-canvas/pixi-canvas"
+  }
+}

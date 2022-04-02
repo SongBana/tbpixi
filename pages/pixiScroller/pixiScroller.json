@@ -1,0 +1,9 @@
+{
+  "navigationBarForceEnable": true,
+  "navigationBarTextStyle": "black",
+  "titleBarColor": "#fff",
+  "transparentTitle": "none",
+  "usingComponents": {
+    "pixi-bg": "./components/pixi-bg/pixi-bg"
+  }
+}
