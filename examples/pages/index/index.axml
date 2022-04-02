@@ -1,5 +1,5 @@
 <view class="testmain">
-  <text style="font-size:20px;font-weight:bold;margin-top:30px;">这是测试动画 DEMO</text>
-  <button style="width:100%;margin-top:10px;" size="default" type="primary" a:for="{{pages}}" onTap="clickNavigation" data-page="{{item.page}}">{{item.title}}</button>
+  这是测试动画 DEMO
+  <button size="default" type="primary" a:for="{{pages}}" onTap="clickNavigation" data-page="{{item.page}}">{{item.title}}</button>
   
   </view>

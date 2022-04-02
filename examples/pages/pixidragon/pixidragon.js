@@ -1,5 +1,5 @@
 import * as PIXI from "@tbminiapp/pixi-miniprogram-engine";
-require("/lib/pixi-plugins/pixi-spine/pixi-spine");
+import Scroller from 'dmpixi'
 const SpineBoyJSON = require("../../demos/alien-pro.json");
 const Atlas = `
 alien-pro.png

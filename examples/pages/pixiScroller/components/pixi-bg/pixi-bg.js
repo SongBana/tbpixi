@@ -1,6 +1,6 @@
 import * as PIXI from "@tbminiapp/pixi-miniprogram-engine";
 import scencConfig from "./config.json";
-import Scroller from "/lib/scroller";
+import Scroller from "dmpixi";
 import TWEEN, { Tween } from "@tweenjs/tween.js";
 let that;
 

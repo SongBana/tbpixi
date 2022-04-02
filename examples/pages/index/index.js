@@ -8,10 +8,6 @@ const pages = [
   {
     title: "pixi 游戏",
     page: "/pages/pixigame/pixigame"
-  },
-  {
-    title: "骨骼动画",
-    page: "/pages/pixidragon/pixidragon"
   }
 ]
 Page({
