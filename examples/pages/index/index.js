@@ -6,9 +6,14 @@ const pages = [
     page: "/pages/pixiScroller/pixiScroller"
   },
   {
-    title: "pixi 游戏",
-    page: "/pages/pixigame/pixigame"
-  }
+    title: "pixi 骨骼动画",
+    page: "/pages/pixidragon/pixidragon"
+  },
+  {
+    title: "pixi 骨骼动画2",
+    page: "/pages/pixidragon2/pixidragon2"
+  },
+
 ]
 Page({
   data() {
