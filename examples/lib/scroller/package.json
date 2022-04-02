@@ -1,0 +1,58 @@
+{
+  "_from": "scroller@0.0.3",
+  "_id": "scroller@0.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-TPRJRLxG2TB3l9hpOHP4p6v8bbY=",
+  "_location": "/scroller",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "scroller@0.0.3",
+    "name": "scroller",
+    "escapedName": "scroller",
+    "rawSpec": "0.0.3",
+    "saveSpec": null,
+    "fetchSpec": "0.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.nlark.com/scroller/download/scroller-0.0.3.tgz",
+  "_shasum": "4cf44944bc46d9307797d8693873f8a7abfc6db6",
+  "_spec": "scroller@0.0.3",
+  "_where": "/Users/supangpang/Documents/test/front.tb.animation/testanimation",
+  "author": {
+    "name": "Tim Popham"
+  },
+  "bugs": {
+    "url": "https://github.com/popham/scroller/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Accelerated panning and zooming for HTML and Canvas",
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/popham/scroller",
+  "keywords": [
+    "Scrolling",
+    "Scroll",
+    "Scroller",
+    "Touch"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "scroller",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popham/scroller.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "0.0.3"
+}

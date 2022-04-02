@@ -1,5 +1,0 @@
-{
-  "usingComponents": {
-    "pixi-canvas": "../../lib/pixi-canvas/pixi-canvas"
-  }
-}
