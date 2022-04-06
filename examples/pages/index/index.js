@@ -15,7 +15,7 @@ const pages = [
   },
   {
     title: "骨骼动画--DragonBones",
-    page: "/pages/pixidragon2/pixidragon2"
+    page: "/pages/pixidragon3/pixidragon3"
   },
 
 ]
