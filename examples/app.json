@@ -4,7 +4,8 @@
     "pages/pixiScroller/pixiScroller",
     "pages/pixigame/pixigame",
     "pages/pixidragon/pixidragon",
-    "pages/pixidragon2/pixidragon2"
+    "pages/pixidragon2/pixidragon2",
+    "pages/pixidragon3/pixidragon3"
   ],
   "window": {
     "allowsBounceVertical": "NO",

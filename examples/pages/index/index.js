@@ -6,11 +6,15 @@ const pages = [
     page: "/pages/pixiScroller/pixiScroller"
   },
   {
-    title: "pixi 骨骼动画",
+    title: "骨骼动画--Spine",
     page: "/pages/pixidragon/pixidragon"
   },
   {
-    title: "pixi 骨骼动画2",
+    title: "骨骼动画2--Spine",
+    page: "/pages/pixidragon2/pixidragon2"
+  },
+  {
+    title: "骨骼动画--DragonBones",
     page: "/pages/pixidragon2/pixidragon2"
   },
 

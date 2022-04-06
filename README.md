@@ -10,3 +10,7 @@ npm i dmpixi
 >打开examples，执行npm i
 
 # 骨骼动画使用 Spine制作[http://zh.esotericsoftware.com/]
+
+# DragonBones工具骨骼动画[https://docs.egret.com/dragonbones/cn]
+
+
