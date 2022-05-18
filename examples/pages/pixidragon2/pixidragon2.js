@@ -184,6 +184,7 @@ Page({
             callback(PIXI.BaseTexture.from('spineboy_png'));
           });
 
+
           const spineAtlasLoader = new PIXI.spine.core.AtlasAttachmentLoader(spineAtlas);
           const spineJsonParser = new PIXI.spine.core.SkeletonJson(spineAtlasLoader);
 
@@ -196,6 +197,12 @@ Page({
           animation.position.set(300, 600);
           animation.scale.set(0.3, 0.3);
 
+          animation.interactive = true;
+          animation.on("touchend", (e) => {
+            my.alert({
+              content: '123'
+            })
+          })
           // 起飞的动画
           if (animation.state.hasAnimation('newAnimation')) {
             animation.state.setAnimation(1, 'newAnimation', true);
