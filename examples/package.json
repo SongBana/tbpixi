@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "dmpixi": "^1.2.0",
+    "dmpixi": "^1.2.2",
     "mini-ali-ui": "^1.0.8"
   }
 }
