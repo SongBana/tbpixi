@@ -1,5 +1,4 @@
 require("./lib/pixi-plugins/pixi-spine/pixi-spine");
-require("./lib/pixi-plugins/pixi-layer/pixi-layers");
 
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
