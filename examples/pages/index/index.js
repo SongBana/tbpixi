@@ -17,6 +17,10 @@ const pages = [
     title: "骨骼动画--DragonBones",
     page: "/pages/pixidragon3/pixidragon3"
   },
+  {
+    title: "层级调整--layers",
+    page: "/pages/pixilayers/pixilayers"
+  },
 
 ]
 Page({

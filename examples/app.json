@@ -5,7 +5,8 @@
     "pages/pixigame/pixigame",
     "pages/pixidragon/pixidragon",
     "pages/pixidragon2/pixidragon2",
-    "pages/pixidragon3/pixidragon3"
+    "pages/pixidragon3/pixidragon3",
+    "pages/pixilayers/pixilayers"
   ],
   "window": {
     "allowsBounceVertical": "NO",
