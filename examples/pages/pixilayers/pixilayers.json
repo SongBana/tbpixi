@@ -1,4 +1,5 @@
 {
-  "usingComponents": {},
-  "styleIsolation": "apply-shared"
+  "usingComponents": {
+    "pixi-canvas": "dmpixi/lib/pixi-canvas/pixi-canvas"
+  }
 }

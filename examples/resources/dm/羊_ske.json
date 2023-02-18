@@ -1,0 +1,1140 @@
+{
+  "armature": [
+    {
+      "aabb": {
+        "width": 380.66545146473464,
+        "y": -379.00000000000006,
+        "height": 502.50000000000006,
+        "x": -190.19930875576034
+      },
+      "skin": [
+        {
+          "name": "",
+          "slot": [
+            {
+              "display": [
+                {
+                  "path": "右手",
+                  "type": "image",
+                  "name": "右手",
+                  "transform": {
+                    "skY": -62.5535,
+                    "y": 4.8256,
+                    "skX": -62.5535,
+                    "x": 54.9622
+                  }
+                }
+              ],
+              "name": "右手"
+            },
+            {
+              "display": [
+                {
+                  "path": "嘴",
+                  "type": "image",
+                  "name": "嘴",
+                  "transform": {
+                    "skY": 90,
+                    "y": 1.0007,
+                    "skX": 90,
+                    "x": 8.45
+                  }
+                }
+              ],
+              "name": "嘴"
+            },
+            {
+              "display": [
+                {
+                  "path": "脸盘",
+                  "type": "image",
+                  "name": "脸盘",
+                  "transform": {
+                    "skY": 88.7024,
+                    "y": 0.4902,
+                    "skX": 88.7024,
+                    "x": 117.4912
+                  }
+                }
+              ],
+              "name": "脸盘"
+            },
+            {
+              "display": [
+                {
+                  "path": "左耳",
+                  "type": "image",
+                  "name": "左耳",
+                  "transform": {
+                    "skY": -42.1425,
+                    "y": 5.3783,
+                    "scX": -1,
+                    "skX": -42.1425,
+                    "x": 25.1861
+                  }
+                }
+              ],
+              "name": "左耳1"
+            },
+            {
+              "display": [
+                {
+                  "path": "右塞红",
+                  "type": "image",
+                  "name": "右塞红",
+                  "transform": {
+                    "skY": 90,
+                    "y": -2.7493,
+                    "skX": 90,
+                    "x": 7.8
+                  }
+                }
+              ],
+              "name": "右塞红"
+            },
+            {
+              "display": [
+                {
+                  "path": "右腿",
+                  "type": "image",
+                  "name": "右腿",
+                  "transform": {
+                    "skY": -93.385,
+                    "y": -1.1331,
+                    "skX": -93.385,
+                    "x": 60.6389
+                  }
+                }
+              ],
+              "name": "右腿"
+            },
+            {
+              "display": [
+                {
+                  "path": "左眼",
+                  "type": "image",
+                  "name": "左眼",
+                  "transform": {
+                    "skY": 91.33,
+                    "y": -7.9884,
+                    "skX": 91.33,
+                    "x": 13.4891
+                  }
+                }
+              ],
+              "name": "左眼"
+            },
+            {
+              "display": [
+                {
+                  "path": "左手",
+                  "type": "image",
+                  "name": "左手",
+                  "transform": {
+                    "skY": -106.9895,
+                    "y": -2.2349,
+                    "skX": -106.9895,
+                    "x": 54.3698
+                  }
+                }
+              ],
+              "name": "左手"
+            },
+            {
+              "display": [
+                {
+                  "path": "左眉毛",
+                  "type": "image",
+                  "name": "左眉毛",
+                  "transform": {
+                    "skY": 90,
+                    "y": -1.4493,
+                    "skX": 90,
+                    "x": 2.05
+                  }
+                }
+              ],
+              "name": "左眉毛"
+            },
+            {
+              "display": [
+                {
+                  "path": "左耳",
+                  "type": "image",
+                  "name": "左耳",
+                  "transform": {
+                    "skY": -153.7467,
+                    "y": -7.7849,
+                    "skX": -153.7467,
+                    "x": 29.317
+                  }
+                }
+              ],
+              "name": "左耳"
+            },
+            {
+              "display": [
+                {
+                  "path": "右眉毛",
+                  "type": "image",
+                  "name": "右眉毛",
+                  "transform": {
+                    "skY": 91.5449,
+                    "y": -1.0436,
+                    "skX": 91.5449,
+                    "x": 2.0789
+                  }
+                }
+              ],
+              "name": "右眉毛1"
+            },
+            {
+              "display": [
+                {
+                  "path": "左塞红",
+                  "type": "image",
+                  "name": "左塞红",
+                  "transform": {
+                    "skY": 91.5755,
+                    "y": 1.5825,
+                    "skX": 91.5755,
+                    "x": 8.4097
+                  }
+                }
+              ],
+              "name": "左塞红"
+            },
+            {
+              "display": [
+                {
+                  "path": "左腿",
+                  "type": "image",
+                  "name": "左腿",
+                  "transform": {
+                    "skY": -84.8624,
+                    "y": 3.4667,
+                    "skX": -84.8624,
+                    "x": 50.2916
+                  }
+                }
+              ],
+              "name": "左腿"
+            },
+            {
+              "display": [
+                {
+                  "path": "右眼",
+                  "type": "image",
+                  "name": "右眼",
+                  "transform": {
+                    "skY": 87.6845,
+                    "y": 8.9247,
+                    "skX": 87.6845,
+                    "x": 15.6734
+                  }
+                }
+              ],
+              "name": "右眼"
+            },
+            {
+              "display": [
+                {
+                  "path": "身体",
+                  "type": "image",
+                  "name": "身体",
+                  "transform": {
+                    "skY": -88.539,
+                    "y": 0.5976,
+                    "skX": -88.539,
+                    "x": 48.9507
+                  }
+                }
+              ],
+              "name": "身体"
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 420,
+        "y": -131,
+        "height": 510,
+        "x": 0
+      },
+      "type": "Armature",
+      "name": "armatureName",
+      "bone": [
+        {
+          "name": "root",
+          "transform": {
+            "x": 10.8007
+          }
+        },
+        {
+          "length": 59,
+          "transform": {
+            "skY": -88.7024,
+            "y": -144.05,
+            "skX": -88.7024,
+            "x": -11.4907
+          },
+          "parent": "root",
+          "name": "脸盘"
+        },
+        {
+          "length": 131,
+          "transform": {
+            "skY": 88.539,
+            "y": -123.95,
+            "skX": 88.539,
+            "x": -10.1507
+          },
+          "parent": "root",
+          "name": "身体"
+        },
+        {
+          "length": 57,
+          "transform": {
+            "skY": -117.5509,
+            "y": -107.2754,
+            "skX": -117.5509,
+            "x": 180.517
+          },
+          "parent": "脸盘",
+          "name": "左耳"
+        },
+        {
+          "length": 100,
+          "transform": {
+            "skY": 18.4505,
+            "y": 86.6969,
+            "skX": 18.4505,
+            "x": -16.9159
+          },
+          "parent": "身体",
+          "name": "左手"
+        },
+        {
+          "length": 30,
+          "transform": {
+            "skY": -1.2976,
+            "y": 2.9461,
+            "skX": -1.2976,
+            "x": 92.9877
+          },
+          "parent": "脸盘",
+          "name": "嘴"
+        },
+        {
+          "length": 30,
+          "transform": {
+            "skY": -2.6276,
+            "y": -48.4434,
+            "skX": -2.6276,
+            "x": 98.0781
+          },
+          "parent": "脸盘",
+          "name": "左眼"
+        },
+        {
+          "length": 32,
+          "transform": {
+            "skY": 1.0179,
+            "y": 48.727,
+            "skX": 1.0179,
+            "x": 98.2786
+          },
+          "parent": "脸盘",
+          "name": "右眼"
+        },
+        {
+          "length": 104,
+          "transform": {
+            "skY": -25.9855,
+            "y": -90.048,
+            "skX": -25.9855,
+            "x": -9.7573
+          },
+          "parent": "身体",
+          "name": "右手"
+        },
+        {
+          "length": 25,
+          "transform": {
+            "skY": -2.8731,
+            "y": -75.8582,
+            "skX": -2.8731,
+            "x": 65.2989
+          },
+          "parent": "脸盘",
+          "name": "左腮红"
+        },
+        {
+          "length": 24,
+          "transform": {
+            "skY": -1.2976,
+            "y": 80.1871,
+            "skX": -1.2976,
+            "x": 69.4837
+          },
+          "parent": "脸盘",
+          "name": "右腮红"
+        },
+        {
+          "length": 22,
+          "transform": {
+            "skY": -1.2976,
+            "y": -48.9315,
+            "skX": -1.2976,
+            "x": 148.33
+          },
+          "parent": "脸盘",
+          "name": "左眉"
+        },
+        {
+          "length": 82,
+          "transform": {
+            "skY": -3.6766,
+            "y": 50.6085,
+            "skX": -3.6766,
+            "x": 144.8068
+          },
+          "parent": "身体",
+          "name": "左腿"
+        },
+        {
+          "length": 90,
+          "transform": {
+            "skY": 4.846,
+            "y": -47.3816,
+            "skX": 4.846,
+            "x": 138.6031
+          },
+          "parent": "身体",
+          "name": "右腿"
+        },
+        {
+          "length": 57,
+          "transform": {
+            "skY": 127.5894,
+            "y": 107.2552,
+            "skX": 127.5894,
+            "x": 185.4819
+          },
+          "parent": "脸盘",
+          "name": "右耳"
+        },
+        {
+          "length": 24,
+          "transform": {
+            "skY": -2.8425,
+            "y": 50.1931,
+            "skX": -2.8425,
+            "x": 150.5752
+          },
+          "parent": "脸盘",
+          "name": "右眉毛"
+        }
+      ],
+      "ik": [],
+      "slot": [
+        {
+          "name": "左耳1",
+          "parent": "右耳",
+          "color": {}
+        },
+        {
+          "z": 1,
+          "name": "左腿",
+          "parent": "左腿",
+          "color": {}
+        },
+        {
+          "z": 2,
+          "name": "右腿",
+          "parent": "右腿",
+          "color": {}
+        },
+        {
+          "z": 3,
+          "name": "身体",
+          "parent": "身体",
+          "color": {}
+        },
+        {
+          "z": 4,
+          "name": "左手",
+          "parent": "左手",
+          "color": {}
+        },
+        {
+          "z": 5,
+          "name": "右手",
+          "parent": "右手",
+          "color": {}
+        },
+        {
+          "z": 6,
+          "name": "左耳",
+          "parent": "左耳",
+          "color": {}
+        },
+        {
+          "z": 7,
+          "name": "脸盘",
+          "parent": "脸盘",
+          "color": {}
+        },
+        {
+          "z": 8,
+          "name": "左塞红",
+          "parent": "左腮红",
+          "color": {}
+        },
+        {
+          "z": 9,
+          "name": "右塞红",
+          "parent": "右腮红",
+          "color": {}
+        },
+        {
+          "z": 10,
+          "name": "右眼",
+          "parent": "右眼",
+          "color": {}
+        },
+        {
+          "z": 11,
+          "name": "左眼",
+          "parent": "左眼",
+          "color": {}
+        },
+        {
+          "z": 12,
+          "displayIndex": -1,
+          "name": "右眉毛",
+          "parent": "root",
+          "color": {}
+        },
+        {
+          "z": 13,
+          "name": "左眉毛",
+          "parent": "左眉",
+          "color": {}
+        },
+        {
+          "z": 14,
+          "name": "嘴",
+          "parent": "嘴",
+          "color": {}
+        },
+        {
+          "z": 15,
+          "name": "右眉毛1",
+          "parent": "右眉毛",
+          "color": {}
+        }
+      ],
+      "animation": [
+        {
+          "bone": [
+            {
+              "translateFrame": [],
+              "rotateFrame": [],
+              "scaleFrame": [],
+              "name": "root"
+            },
+            {
+              "translateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "y": 7.3696,
+                  "duration": 10
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10
+                },
+                {
+                  "tweenEasing": 0,
+                  "y": 8.6593,
+                  "duration": 4
+                },
+                {
+                  "tweenEasing": 0,
+                  "y": -5.95,
+                  "duration": 4
+                },
+                {
+                  "tweenEasing": 0,
+                  "y": 14.05,
+                  "duration": 4
+                },
+                {
+                  "tweenEasing": 0,
+                  "y": -5.95,
+                  "duration": 4
+                },
+                {
+                  "tweenEasing": 0,
+                  "y": 14.05,
+                  "duration": 4
+                },
+                {
+                  "y": 8.05,
+                  "duration": 0
+                }
+              ],
+              "rotateFrame": [],
+              "scaleFrame": [],
+              "name": "脸盘"
+            },
+            {
+              "translateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "y": -7.05,
+                  "duration": 10
+                },
+                {
+                  "tweenEasing": 0,
+                  "y": -8.05,
+                  "duration": 10
+                },
+                {
+                  "tweenEasing": 0,
+                  "y": -11.05,
+                  "duration": 10
+                },
+                {
+                  "y": -8.05,
+                  "duration": 10
+                }
+              ],
+              "rotateFrame": [],
+              "scaleFrame": [],
+              "name": "身体"
+            },
+            {
+              "translateFrame": [],
+              "rotateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -2.4491
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 27.5509
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -2.4491
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 27.5509
+                },
+                {
+                  "duration": 0,
+                  "rotate": -2.4491
+                }
+              ],
+              "scaleFrame": [],
+              "name": "左耳"
+            },
+            {
+              "translateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "y": 3.3031,
+                  "duration": 37,
+                  "x": 1.9159
+                },
+                {
+                  "y": 3.3031,
+                  "duration": 3,
+                  "x": 1.9159
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 16.5266
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 14,
+                  "rotate": -5.1923
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 4,
+                  "rotate": -65.0626
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 3,
+                  "rotate": -44.4932
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 3,
+                  "rotate": -65.8575
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 6,
+                  "rotate": 0.2726
+                },
+                {
+                  "duration": 0,
+                  "rotate": 16.5295
+                }
+              ],
+              "scaleFrame": [],
+              "name": "左手"
+            },
+            {
+              "translateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "y": -1.9461,
+                  "duration": 10,
+                  "x": -2.9877
+                },
+                {
+                  "y": -1.9461,
+                  "duration": 30,
+                  "x": -2.9877
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "duration": 40
+                }
+              ],
+              "scaleFrame": [],
+              "name": "嘴"
+            },
+            {
+              "translateFrame": [],
+              "rotateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 2.6276
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -0.3724
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 2.6276
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 8.6276
+                },
+                {
+                  "duration": 0,
+                  "rotate": 2.6276
+                }
+              ],
+              "scaleFrame": [],
+              "name": "左眼"
+            },
+            {
+              "translateFrame": [],
+              "rotateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -1.0179
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 1.9821
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -1.0179
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -4.0179
+                },
+                {
+                  "duration": 0,
+                  "rotate": -1.0179
+                }
+              ],
+              "scaleFrame": [],
+              "name": "右眼"
+            },
+            {
+              "translateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "y": 0.048,
+                  "duration": 37,
+                  "x": 0.7573
+                },
+                {
+                  "y": 0.048,
+                  "duration": 3,
+                  "x": 0.7573
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "duration": 25,
+                  "rotate": -23.6699
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 3,
+                  "rotate": 70.0853
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 3,
+                  "rotate": 51.4087
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 3,
+                  "rotate": 72.1002
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 6,
+                  "rotate": -12.1211
+                },
+                {
+                  "duration": 0,
+                  "rotate": -23.6745
+                }
+              ],
+              "scaleFrame": [],
+              "name": "右手"
+            },
+            {
+              "translateFrame": [],
+              "rotateFrame": [],
+              "scaleFrame": [],
+              "name": "左腮红"
+            },
+            {
+              "translateFrame": [],
+              "rotateFrame": [],
+              "scaleFrame": [],
+              "name": "右腮红"
+            },
+            {
+              "translateFrame": [],
+              "rotateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 4.2976
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -10.7024
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 4.2976
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -10.7024
+                },
+                {
+                  "duration": 0,
+                  "rotate": 4.2976
+                }
+              ],
+              "scaleFrame": [],
+              "name": "左眉"
+            },
+            {
+              "translateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "y": -0.6085,
+                  "duration": 11,
+                  "x": -0.8068
+                },
+                {
+                  "tweenEasing": 0,
+                  "y": -0.6085,
+                  "duration": 13,
+                  "x": -0.8068
+                },
+                {
+                  "y": -0.6085,
+                  "duration": 16,
+                  "x": -0.8068
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "duration": 11,
+                  "rotate": 3.6766
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 13,
+                  "rotate": 3.6766
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 8,
+                  "rotate": -4.3234
+                },
+                {
+                  "duration": 8,
+                  "rotate": 3.6766
+                }
+              ],
+              "scaleFrame": [],
+              "name": "左腿"
+            },
+            {
+              "translateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "y": -2.6184,
+                  "duration": 11,
+                  "x": 1.3969
+                },
+                {
+                  "tweenEasing": 0,
+                  "y": -2.6184,
+                  "duration": 13,
+                  "x": 1.3969
+                },
+                {
+                  "tweenEasing": 0,
+                  "y": 7.3816,
+                  "duration": 8,
+                  "x": 1.3969
+                },
+                {
+                  "y": -2.6184,
+                  "duration": 8,
+                  "x": 1.3969
+                }
+              ],
+              "rotateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "duration": 11,
+                  "rotate": -4.846
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 13,
+                  "rotate": -4.846
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 8,
+                  "rotate": 3.154
+                },
+                {
+                  "duration": 8,
+                  "rotate": -4.846
+                }
+              ],
+              "scaleFrame": [
+                {
+                  "duration": 40
+                }
+              ],
+              "name": "右腿"
+            },
+            {
+              "translateFrame": [],
+              "rotateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 2.4106
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -27.5894
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 2.4106
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -27.5894
+                },
+                {
+                  "duration": 0,
+                  "rotate": 2.4106
+                }
+              ],
+              "scaleFrame": [],
+              "name": "右耳"
+            },
+            {
+              "translateFrame": [],
+              "rotateFrame": [
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -0.1575
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 14.8425
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": -0.1575
+                },
+                {
+                  "tweenEasing": 0,
+                  "duration": 10,
+                  "rotate": 14.8425
+                },
+                {
+                  "duration": 0,
+                  "rotate": -0.1575
+                }
+              ],
+              "scaleFrame": [],
+              "name": "右眉毛"
+            }
+          ],
+          "ffd": [],
+          "duration": 40,
+          "playTimes": 0,
+          "ik": [],
+          "frame": [],
+          "slot": [
+            {
+              "colorFrame": [],
+              "name": "左耳1",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "左腿",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "右腿",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "身体",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "左手",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "右手",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "左耳",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "脸盘",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "左塞红",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "右塞红",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "右眼",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "左眼",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "右眉毛",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "左眉毛",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "嘴",
+              "displayFrame": []
+            },
+            {
+              "colorFrame": [],
+              "name": "右眉毛1",
+              "displayFrame": []
+            }
+          ],
+          "name": "newAnimation"
+        }
+      ],
+      "frameRate": 24,
+      "defaultActions": [
+        {
+          "gotoAndPlay": "newAnimation"
+        }
+      ]
+    }
+  ],
+  "frameRate": 24,
+  "name": "羊",
+  "version": "5.5",
+  "isGlobal": 0
+}

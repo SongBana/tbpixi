@@ -1,0 +1,143 @@
+{"frames": {
+
+"armatureName_newAnimation_10.png":
+{
+	"frame": {"x":1,"y":1,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_11.png":
+{
+	"frame": {"x":1,"y":512,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_12.png":
+{
+	"frame": {"x":424,"y":1,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_13.png":
+{
+	"frame": {"x":1,"y":1023,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_14.png":
+{
+	"frame": {"x":424,"y":512,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_15.png":
+{
+	"frame": {"x":847,"y":1,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_16.png":
+{
+	"frame": {"x":1,"y":1534,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_17.png":
+{
+	"frame": {"x":424,"y":1023,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_18.png":
+{
+	"frame": {"x":847,"y":512,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_19.png":
+{
+	"frame": {"x":1270,"y":1,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_20.png":
+{
+	"frame": {"x":424,"y":1534,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_21.png":
+{
+	"frame": {"x":847,"y":1023,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_22.png":
+{
+	"frame": {"x":1270,"y":512,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_23.png":
+{
+	"frame": {"x":847,"y":1534,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_24.png":
+{
+	"frame": {"x":1270,"y":1023,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+},
+"armatureName_newAnimation_25.png":
+{
+	"frame": {"x":1270,"y":1534,"w":421,"h":509},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":421,"h":509},
+	"sourceSize": {"w":421,"h":509}
+}},
+"animations": {
+	"armatureName_newAnimation": ["armatureName_newAnimation_10.png","armatureName_newAnimation_11.png","armatureName_newAnimation_12.png","armatureName_newAnimation_13.png","armatureName_newAnimation_14.png","armatureName_newAnimation_15.png","armatureName_newAnimation_16.png","armatureName_newAnimation_17.png","armatureName_newAnimation_18.png","armatureName_newAnimation_19.png","armatureName_newAnimation_20.png","armatureName_newAnimation_21.png","armatureName_newAnimation_22.png","armatureName_newAnimation_23.png","armatureName_newAnimation_24.png","armatureName_newAnimation_25.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "羊_tex.png",
+	"format": "RGBA8888",
+	"size": {"w":1692,"h":2044},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a398802a1199341d071e3019db514e9a:b938884ddcb997b49b6087b0be314b0f:ea1495ab509b14d18cdb8a87ff3829f1$"
+}
+}
