@@ -199,13 +199,14 @@ Component({
 
       const e = event.data.originalEvent;
       console.log('move move', e.touches)
-      let scale = 1;
       if (that.isZoom && e.touches.length >= 2) {
         const now = e.touches; //得到第二组两个点
-        scale = that.getDistance(now[0], now[1]) / that.getDistance(that.startTouch[0], that.startTouch[1]);
+        const scale = that.getDistance(now[0], now[1]) / that.getDistance(that.startTouch[0], that.startTouch[1]);
         console.log('scale', scale)
+        that.objScroller.doTouchMove(e.touches, e.timeStamp, scale);
+      } else {
+        that.objScroller.doTouchMove(e.touches, e.timeStamp, 1);
       }
-      that.objScroller.doTouchMove(e.touches, e.timeStamp, scale);
 
     },
 
@@ -231,9 +232,9 @@ Component({
 
 
     getDistance(p1, p2) {
-      var x = p2.pageX || p2.x - p1.pageX || p1.x,
+      var x = p2.clientX - p1.clientX,
 
-        y = p2.pageY || p2.y - p1.pageY || p1.y;
+        y = p2.clientY - p1.clientY;
 
       return Math.sqrt((x * x) + (y * y));
 
