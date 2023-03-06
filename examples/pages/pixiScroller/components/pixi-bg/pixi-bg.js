@@ -67,6 +67,7 @@ Component({
         baseTexture: false,
       });
     });
+    TWEEN.removeAll()
   },
   methods: {
     onTouchHandle(e) {
