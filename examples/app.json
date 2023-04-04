@@ -6,7 +6,10 @@
     "pages/pixidragon/pixidragon",
     "pages/pixidragon2/pixidragon2",
     "pages/pixidragon3/pixidragon3",
-    "pages/pixilayers/pixilayers"
+    "pages/pixilayers/pixilayers",
+    "pages/pixi_layerchange/pixi_layerchange",
+    "pages/pixi_rocker/pixi_rocker",
+    "pages/pixi_bump/pixi_bump"
   ],
   "window": {
     "allowsBounceVertical": "NO",
