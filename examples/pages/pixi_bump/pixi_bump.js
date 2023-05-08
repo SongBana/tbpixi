@@ -1,7 +1,6 @@
 import * as PIXI from "@tbminiapp/pixi-miniprogram-engine";
 require("dmpixi/lib/pixi-plugins/pixi-spine/pixi-spine");
 import Bump from "../../../lib/pixi-plugins/bump/bump"
-// const SpineBoyJSON = require("../../demos/dragon-ess.json");
 const pixiObj = {
   canvas: null,
   context: null,

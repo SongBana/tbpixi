@@ -1,6 +1,5 @@
 import * as PIXI from "@tbminiapp/pixi-miniprogram-engine";
 require("dmpixi/lib/pixi-plugins/pixi-spine/pixi-spine");
-// const SpineBoyJSON = require("../../demos/dragon-ess.json");
 import TWEEN, { Tween } from "@tweenjs/tween.js";
 const dmThrottle = (func, gapTime = 1000) => {
   let _lastTime = null;

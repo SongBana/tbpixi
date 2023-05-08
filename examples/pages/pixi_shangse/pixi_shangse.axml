@@ -1,0 +1,7 @@
+<view class="page-game">
+  <pixi-canvas id="pixi-canvas" options={{appOptions}} destroyAppOnDidUnmount="true" onError="onPixiCanvasError" onDidUnmount="onPixiCanvasDidUnmount" 
+    onAppInit="onAppInit"></pixi-canvas>
+  <button size="default" type="primary" onTap="clickColor1">Color1</button>
+  <button size="default" type="primary" onTap="clickColor2">Color2</button>
+  
+</view>

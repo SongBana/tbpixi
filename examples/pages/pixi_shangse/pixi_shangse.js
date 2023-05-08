@@ -1,4 +1,6 @@
 import * as PIXI from "@tbminiapp/pixi-miniprogram-engine";
+import TWEEN from "@tweenjs/tween.js";
+import Flower from "./flower";
 require("dmpixi/lib/pixi-plugins/pixi-spine/pixi-spine");
 Page({
   canvas: null,
@@ -51,47 +53,24 @@ Page({
 
     stage.interactive = true; //开启点击事件
 
+    try {
+      const flower = Flower.initFromImage("https://img.alicdn.com/imgextra/i3/1761495540/O1CN01TmxQyX1qnN2UDeKjI_!!1761495540-2-isvtu.png")
+      flower.position(application.renderer.screen.width / 2, application.renderer.screen.height / 2)
+      stage.addChild(flower.container)
 
-    let color = "https://img.alicdn.com/imgextra/i3/2208186624252/O1CN01JZP0M81hHSthRiZH9_!!2208186624252-2-isvtu.png";
-    let blackWhite = "https://img.alicdn.com/imgextra/i2/2208186624252/O1CN01To6Oxp1hHStbSkvrY_!!2208186624252-2-isvtu.png";
-    let clear = "https://img.alicdn.com/imgextra/i2/2208186624252/O1CN011QkFtV1hHStm8r52p_!!2208186624252-2-isvtu.png";
+    } catch (error) {
+      console.log("GGG", error)
+    }
 
-    //需要用到的精灵
-    let colorSprite;
-    let blackWhiteSprite;
-    let clearSprite;
-
-    let resources = PIXI.loader.resources;
-
-    loader
-      .add([color, blackWhite, clear])
-      .load((loader, resources) => {
-        console.log("resources", resources)
-        colorSprite = new PIXI.Sprite(resources[color].texture);
-        blackWhiteSprite = new PIXI.Sprite(resources[blackWhite].texture);
-        clearSprite = new PIXI.Sprite(resources[clear].texture);
-
-        clearSprite.x = application.renderer.screen.width / 2;
-        clearSprite.y = application.renderer.screen.height / 2;
-        clearSprite.anchor.x = 0.5;
-        clearSprite.anchor.y = 0.5;
-
-        colorSprite.mask = clearSprite;
-
-        //把精灵添加到舞台上
-        stage.addChild(blackWhiteSprite);
-        stage.addChild(colorSprite);
-        stage.addChild(clearSprite);
-      })
 
     application.ticker.add(() => {
-      if (clearSprite && clearSprite.width < application.renderer.screen.width) {
-        clearSprite.width += 4;
-        clearSprite.height += 4;
-        clearSprite.x -= 1;
-        clearSprite.y -= 1;
-      }
+      TWEEN.update()
     })
-
+  },
+  clickColor1() {
+    my.emit("changeColor", '0x00ff00')
+  },
+  clickColor2() {
+    my.emit("changeColor", '0x000000')
   }
 })

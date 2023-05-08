@@ -9,7 +9,8 @@
     "pages/pixilayers/pixilayers",
     "pages/pixi_layerchange/pixi_layerchange",
     "pages/pixi_rocker/pixi_rocker",
-    "pages/pixi_bump/pixi_bump"
+    "pages/pixi_bump/pixi_bump",
+    "pages/pixi_shangse/pixi_shangse"
   ],
   "window": {
     "allowsBounceVertical": "NO",

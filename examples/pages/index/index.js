@@ -21,6 +21,10 @@ const pages = [
     title: "层级调整--layers",
     page: "/pages/pixilayers/pixilayers"
   },
+  {
+    title: "变色--mask",
+    page: "/pages/pixi_shangse/pixi_shangse"
+  },
 
 ]
 Page({
