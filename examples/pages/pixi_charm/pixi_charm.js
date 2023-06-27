@@ -65,7 +65,7 @@ Page({
       bunny2.height = 342
       bunny2.x = 50;
       bunny2.y = 150;
-      // application.stage.addChild(bunny2);
+      application.stage.addChild(bunny2);
 
       const texture = PIXI.Texture.fromImage(
         "https://img.alicdn.com/imgextra/i2/732742758/O1CN01FYlWsH1WFDAZswCmQ_!!732742758.png"
@@ -100,20 +100,34 @@ Page({
 
       let bezierLine = new PIXI.Graphics();
       bezierLine.lineStyle(4, 0x000000, 1);
-      bezierLine.moveTo(shoelist[0].x, shoelist[0].y);
-      for (let index = 0; index < shoelist.length; index++) {
-        const element = shoelist[index];
+      // bezierLine.moveTo(shoelist[0].x, shoelist[0].y);
+      // for (let index = 0; index < shoelist.length; index++) {
+      //   const element = shoelist[index];
 
-        if (element.type == 'line') {
-          bezierLine.lineTo(element.x, element.y);
-        } else if (element.type == 'curve') {
-          // bezierLine.bezierCurveTo(element.x, element.y);
-        }
-      }
+      //   if (element.type == 'line') {
+      //     bezierLine.lineTo(element.x, element.y);
+      //   } else if (element.type == 'curve') {
+      //     // bezierLine.bezierCurveTo(element.x, element.y);
+      //   }
+      // }
 
       stage.addChild(bezierLine);
 
+      let p = 0
+      let tmIndex = 0
       application.ticker.add(() => {
+        if (p < 1)  // while we didn't fully draw the line
+          p += shoelist[tmIndex].duration / 1000; // increase the "progress" of the animation
+        else if (tmIndex < shoelist.length - 1) {
+          p = 0
+          tmIndex += 1
+        }
+        if (p < 1 && tmIndex < shoelist.length - 1) {
+          bezierLine.moveTo(shoelist[tmIndex].x, shoelist[tmIndex].y);
+          bezierLine.lineTo(shoelist[tmIndex].x + (shoelist[tmIndex + 1].x - shoelist[tmIndex].x) * p,
+            shoelist[tmIndex].y + (shoelist[tmIndex + 1].y - shoelist[tmIndex].y) * p);
+        }
+
         c.update()
       })
     } catch (error) {
