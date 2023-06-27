@@ -1,5 +1,6 @@
 <view class="testmain">
   <text style="font-size:20px;font-weight:bold;marign-top:20px;">这是测试动画 DEMO</text>
-  <button style="width:100%;margin-top:20px;" size="default" type="primary" a:for="{{pages}}" onTap="clickNavigation" data-page="{{item.page}}">{{item.title}}</button>
-  
-  </view>
+  <!-- <button style="width:100%;margin-top:20px;" size="default" type="primary" a:for="{{pages}}" onTap="clickNavigation" data-page="{{item.page}}">{{item.title}}</button> -->
+  <image mode="scaleToFill" style="width:600rpx;height:500rpx;background-color:red;" src="https://env-00jx41rinpqn.normal.cloudstatic.cn/cjwx-alipay/16pic_3429550_s.png" />
+  <image mode="scaleToFill" style="width:600rpx;height:500rpx;background-color:blue;" src="https://img.alicdn.com/imgextra/i1/732742758/O1CN011WD0xx1WFDC56n68K_!!732742758.png" />
+</view>
